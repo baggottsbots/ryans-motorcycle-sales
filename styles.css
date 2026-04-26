@@ -1,0 +1,44 @@
+/* ===== BASE GLOBAL STYLES ===== */
+    /* Dark, edgy dealership aesthetic with chrome and orange accents */
+    html { scroll-behavior: smooth; }
+    body {
+      background:
+        radial-gradient(circle at top, rgba(255, 106, 0, 0.14), transparent 28%),
+        linear-gradient(180deg, #0a0a0a 0%, #111111 45%, #070707 100%);
+      color: #f3f4f6;
+    }
+
+    /* ===== ACCENT GRADIENT UTILITIES ===== */
+    /* Chrome-to-orange styling for standout headings and buttons */
+    .chrome-orange {
+      background: linear-gradient(90deg, #f97316 0%, #e5e7eb 35%, #ffffff 50%, #9ca3af 70%, #f97316 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    /* ===== CARD HOVER INTERACTIONS ===== */
+    /* Subtle lift effect to enhance modern dealership cards */
+    .lift-card {
+      transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+    }
+    .lift-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.45);
+      border-color: rgba(249, 115, 22, 0.55);
+    }
+
+    /* ===== HERO BACKDROP ===== */
+    /* Dramatic layered background for the hero section */
+    .hero-backdrop {
+      background:
+        linear-gradient(135deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.72)),
+        url('https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=1800&q=80') center/cover no-repeat;
+    }
+
+    /* ===== FOCUS STATES ===== */
+    /* Accessible focus visibility for keyboard users */
+    :focus-visible {
+      outline: 2px solid #f97316;
+      outline-offset: 3px;
+    }
