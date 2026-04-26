@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://baggottsbots.github.io/ryans-motorcycle-sales/</loc>
+    <lastmod>2026-04-26T15:18:19.690Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://baggottsbots.github.io/ryans-motorcycle-sales/contact/</loc>
-    <lastmod>2026-04-26T15:13:55.001Z</lastmod>
+    <lastmod>2026-04-26T15:18:02.071Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://baggottsbots.github.io/ryans-motorcycle-sales/about/</loc>
-    <lastmod>2026-04-26T15:13:46.129Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://baggottsbots.github.io/ryans-motorcycle-sales/</loc>
-    <lastmod>2026-04-26T15:13:35.994Z</lastmod>
+    <lastmod>2026-04-26T15:17:38.755Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
