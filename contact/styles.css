@@ -1,0 +1,32 @@
+/* ===== GLOBAL BASE STYLES ===== */
+    /* Dark automotive theme with orange and chrome accents */
+    body { background: #0b0b0d; color: #f3f4f6; }
+
+    /* ===== SUBTLE CHROME GLOW ===== */
+    /* Adds polished metallic highlights without overwhelming the layout */
+    .chrome-glow { box-shadow: 0 0 0 1px rgba(255,255,255,0.08), 0 12px 40px rgba(0,0,0,0.45); }
+
+    /* ===== MAP PLACEHOLDER PANEL ===== */
+    /* Styled like an embedded map while remaining lightweight and accessible */
+    .map-panel {
+      background:
+        radial-gradient(circle at 20% 20%, rgba(255,122,0,0.18), transparent 24%),
+        radial-gradient(circle at 80% 30%, rgba(255,255,255,0.08), transparent 22%),
+        linear-gradient(135deg, #1a1a1f 0%, #0f0f12 100%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* ===== DECORATIVE GRID OVERLAY ===== */
+    /* Mimics an industrial technical blueprint feel */
+    .map-panel::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+      background-size: 32px 32px;
+      opacity: 0.55;
+      pointer-events: none;
+    }
